@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'VKNetworking_Example' do
+  pod 'VKNetworking', :path => '../'
+
+  target 'VKNetworking_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
