@@ -1,0 +1,6 @@
+framework module Pods_VKNetworking_Tests {
+  umbrella header "Pods-VKNetworking_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

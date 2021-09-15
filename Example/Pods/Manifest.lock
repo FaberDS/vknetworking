@@ -1,0 +1,41 @@
+PODS:
+  - Alamofire (4.9.1)
+  - RxCocoa (6.2.0):
+    - RxRelay (= 6.2.0)
+    - RxSwift (= 6.2.0)
+  - RxRelay (6.2.0):
+    - RxSwift (= 6.2.0)
+  - RxSwift (6.2.0)
+  - SwiftyJSON (5.0.1)
+  - VKNetworking (0.1.0):
+    - Alamofire
+    - RxCocoa
+    - RxSwift
+    - SwiftyJSON
+
+DEPENDENCIES:
+  - VKNetworking (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - SwiftyJSON
+
+EXTERNAL SOURCES:
+  VKNetworking:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  RxCocoa: 4baf94bb35f2c0ab31bc0cb9f1900155f646ba42
+  RxRelay: e72dbfd157807478401ef1982e1c61c945c94b2f
+  RxSwift: d356ab7bee873611322f134c5f9ef379fa183d8f
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+  VKNetworking: 31afd0f5f3bfa002f32eb7a749d80486bb61dfa5
+
+PODFILE CHECKSUM: 028c235e29873ee6419b39097fa6e27801f14b77
+
+COCOAPODS: 1.10.0
